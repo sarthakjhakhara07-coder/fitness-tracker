@@ -1,0 +1,164 @@
+.hero {
+  text-align: center;
+  padding: 3.5rem 1rem;
+  background: linear-gradient(135deg, #2563eb, #16a34a);
+  color: #fff;
+  border-radius: 12px;
+  margin-bottom: 2.5rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero-subtitle {
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  font-size: 1.1rem;
+}
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.hero .btn {
+  background-color: #fff;
+  color: #2563eb;
+}
+.hero .btn:hover {
+  background-color: #e5edff;
+}
+
+
+.btn-outline {
+  background-color: transparent !important;
+  color: #fff !important;
+  border: 2px solid #fff !important;
+}
+.btn-outline:hover {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow:0 6px 18px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.stat-item {
+  text-align: center;
+  flex: 1;
+  min-width: 120px;
+}
+
+.stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color:#2563eb;
+}
+
+.stat-label {
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.features h2,
+.how-it-works h2,
+.cta h2 {
+  text-align: center;
+  margin-bottom: 0.25rem;
+}
+
+.section-subtitle {
+  text-align: center;
+  color:#6b7280;
+  margin-bottom: 1.5rem;
+}
+
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 3rem;
+}
+
+.feature-card {
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px); 
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+  color: #6b7280;
+}
+
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-bottom: 3rem;
+}
+
+.step-card {
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #2563eb;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.step-card p {
+  color: #6b7280;
+}
+
+.cta {
+  text-align: center;
+  background-color:#1f2937;
+  color: #fff;
+  border-radius:12px;
+  padding: 3rem 1rem;
+  margin-bottom: 2rem;
+}
+
+.cta p {
+  color: #d1d5db;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
